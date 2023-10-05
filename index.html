@@ -1,56 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
     <title>My Weather Dashboard</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <h1>My Weather Dashboard</h1>
+      <h1>My Weather Dashboard</h1>
     </header>
     <main>
-        <section>
-            <form id="locationForm">
-                <input type="text" id="locationInput" placeholder="Type city..." required />
-                <button type="submit">Lookup</button>
-            </form>
-            <button id="resetHistory">Clear History</button>
-        </section>
-        <section id="weatherData">
-            <div id="currentSummary">
-                <h2>Current Weather</h2>
-                <p id="description"></p>
-            </div>
-            <div id="tempData">
-                <h3>Temperature</h3>
-                <p id="temp"></p>
-            </div>
-            <div id="windData">
-                <h3>Wind Speed</h3>
-                <p id="wind"></p>
-            </div>
-            <div id="humidityData">
-                <h3>Humidity</h3>
-                <p id="humidity"></p>
-            </div>
-            <div id="iconDisplay">
-                <h3>Weather Icon</h3>
-                <img id="weatherIcon" alt="Current Weather Icon" src="" />
-            </div>
-        </section>
-        <section id="fiveDayForecast">
-            <h2>5-Day Forecast</h2>
-            <!-- Forecast data will be populated here -->
-        </section>
-        <section id="searchedCities">
-            <h2>Previous Searches</h2>
-            <!-- Previous search buttons will be populated here -->
-        </section>
+      <section>
+        <form id="locationForm">
+          <input
+            type="text"
+            id="locationInput"
+            placeholder="Type city..."
+            required
+          />
+          <button type="submit">Lookup</button>
+        </form>
+        <button id="resetHistory">Clear History</button>
+      </section>
+      <section id="weatherData">
+        <div id="currentSummary">
+          <h2>Current Weather</h2>
+          <p id="description"></p>
+        </div>
+        <div id="tempData">
+          <h3>Temperature</h3>
+          <p id="temp"></p>
+        </div>
+        <div id="windData">
+          <h3>Wind Speed</h3>
+          <p id="wind"></p>
+        </div>
+        <div id="humidityData">
+          <h3>Humidity</h3>
+          <p id="humidity"></p>
+        </div>
+        <div id="iconDisplay">
+          <h3>Weather Icon</h3>
+          <img id="weatherIcon" alt="Current Weather Icon" src="" />
+        </div>
+      </section>
+      <section id="fiveDayForecast">
+        <h2>5-Day Forecast</h2>
+        <!-- Forecast data will be populated here -->
+      </section>
+      <section id="searchedCities">
+        <h2>Previous Searches</h2>
+        <!-- Previous search buttons will be populated here -->
+      </section>
     </main>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>

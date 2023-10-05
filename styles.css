@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Helvetica", sans-serif;
+    background-color: #e6e6e6;
+}
+
+header {
+    padding: 20px;
+    color: white;
+    background-color: #1a1a1a;
+    text-align: center;
+}
+
+main {
+    margin: 2em auto;
+    width: 85%;
+    background-color: white;
+    padding: 2em;
+    border-radius: 7px;
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+#locationForm {
+    display: flex;
+    gap: 20px;
+}
+
+#locationInput {
+    padding: 10px;
+    flex: 1;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#resetHistory {
+    background-color: #e60000;
+    color: white;
+    margin-top: 10px;
+}
